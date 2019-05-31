@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"strconv"
 	"strings"
 
 	"github.com/dgraph-io/dgo"
@@ -18,8 +19,7 @@ type Repo struct {
 }
 
 func (r *Repo) NewClient() *dgo.Dgraph {
-	// Dial a gRPC connection. The address to dial to can be configured when
-	// setting up the dgraph cluster.
+	// Dial a gRPC connection.
 	d, err := grpc.Dial("localhost:9080", grpc.WithInsecure())
 	if err != nil {
 		log.Fatal(err)
@@ -32,9 +32,25 @@ func (r *Repo) NewClient() *dgo.Dgraph {
 
 func (r *Repo) SaveCategories(ctx context.Context, cs []models.Category) ([]models.Category, error) {
 	c := r.NewClient()
+
+	// set schema.
+	err := c.Alter(context.Background(), &api.Operation{
+		Schema: `
+			category: string .
+			id: int @index(int) .
+			name: string @index(term) .
+			level: int @index(int) .
+			children: uid .
+		`,
+	})
+	if err != nil {
+		return nil, err
+	}
+
 	txn := c.NewTxn()
 	defer txn.Discard(ctx)
 
+	// drop existing nodes.
 	q := `{
 			UIDS(func: has(category)) {
 				uid
@@ -71,6 +87,7 @@ func (r *Repo) SaveCategories(ctx context.Context, cs []models.Category) ([]mode
 		}
 	}
 
+	// load new data.
 	cb, err := json.Marshal(cs)
 	if err != nil {
 		return nil, err
@@ -88,6 +105,7 @@ func (r *Repo) SaveCategories(ctx context.Context, cs []models.Category) ([]mode
 		return nil, err
 	}
 
+	// send loaded data in response.
 	var sb strings.Builder
 	for _, u := range assigned.Uids {
 		sb.WriteString(u + ", ")
@@ -107,6 +125,52 @@ func (r *Repo) SaveCategories(ctx context.Context, cs []models.Category) ([]mode
 		}`, uids)
 
 	resp, err = c.NewReadOnlyTxn().Query(ctx, q)
+	if err != nil {
+		return nil, err
+	}
+
+	type Root struct {
+		Categories []models.Category `json:"categories"`
+	}
+
+	var rt Root
+	err = json.Unmarshal(resp.Json, &rt)
+	if err != nil {
+		return nil, err
+	}
+
+	return rt.Categories, nil
+}
+
+func (r *Repo) GetCategories(ctx context.Context, name string, level *int) ([]models.Category, error) {
+	c := r.NewClient()
+
+	vars := map[string]string{"$name": name}
+	var q string
+	if level == nil {
+		q = `query Categories($name: string, $level: string){
+			categories(func: allofterms(name, $name)) @recurse(depth: 100) {
+				uid
+				id
+				name
+				level 
+				children
+			}
+		}`
+	} else {
+		vars["$level"] = strconv.Itoa(*level)
+		q = `query Categories($name: string, $level: string){
+			categories(func: allofterms(name, $name)) @filter(eq(level, $level)) @recurse(depth: 100) {
+				uid
+				id
+				name
+				level 
+				children
+			}
+		}`
+	}
+
+	resp, err := c.NewReadOnlyTxn().QueryWithVars(ctx, q, vars)
 	if err != nil {
 		return nil, err
 	}

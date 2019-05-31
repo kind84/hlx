@@ -39,3 +39,34 @@ func LoadCategories(r *repo.Repo) func(w http.ResponseWriter, req *http.Request,
 		encoder.Encode(cs)
 	}
 }
+
+func GetCategories(r *repo.Repo) func(w http.ResponseWriter, req *http.Request, _ httprouter.Params) {
+	return func(w http.ResponseWriter, req *http.Request, _ httprouter.Params) {
+		ctx := context.TODO()
+
+		var payload struct {
+			Name  string `json:"name"`
+			Level *int   `json:"level,omitempty"`
+		}
+
+		defer req.Body.Close()
+
+		decoder := json.NewDecoder(req.Body)
+		err := decoder.Decode(&payload)
+		if err != nil {
+			w.WriteHeader(http.StatusBadRequest)
+			w.Write([]byte(`{"code": 400, "msg": "Bad Request."}`))
+			return
+		}
+
+		cs, err := r.GetCategories(ctx, payload.Name, payload.Level)
+		if err != nil {
+			w.WriteHeader(http.StatusInternalServerError)
+			w.Write([]byte(fmt.Sprintf(`{"code": 500, "msg": "Internal Server Error: %s"}`, err.Error())))
+			return
+		}
+
+		encoder := json.NewEncoder(w)
+		encoder.Encode(cs)
+	}
+}
