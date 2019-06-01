@@ -20,8 +20,9 @@ func main() {
 
 	mux.GET("/api", handlers.GetInfo)
 	mux.POST("/api/categories/load", handlers.LoadCategories(r))
-	mux.POST("/api/categories/search", handlers.GetCategories(r))
+	mux.POST("/api/categories/leaves", handlers.GetCategoryLeaves(r))
 	mux.POST("/api/psychos/load", handlers.LoadPsychos(r))
+	mux.POST("/api/psychos/search", handlers.GetPsychos(r))
 
 	c := cors.New(cors.Options{
 		AllowCredentials: true,

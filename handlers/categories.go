@@ -40,13 +40,13 @@ func LoadCategories(r *repo.Repo) func(w http.ResponseWriter, req *http.Request,
 	}
 }
 
-func GetCategories(r *repo.Repo) func(w http.ResponseWriter, req *http.Request, _ httprouter.Params) {
+func GetCategoryLeaves(r *repo.Repo) func(w http.ResponseWriter, req *http.Request, _ httprouter.Params) {
 	return func(w http.ResponseWriter, req *http.Request, _ httprouter.Params) {
 		ctx := context.TODO()
 
 		var payload struct {
-			Name  string `json:"name"`
-			Level *int   `json:"level,omitempty"`
+			Name         string `json:"name"`
+			SubLayerName string `json:"subLayerName,omitempty"`
 		}
 
 		defer req.Body.Close()
@@ -59,7 +59,7 @@ func GetCategories(r *repo.Repo) func(w http.ResponseWriter, req *http.Request, 
 			return
 		}
 
-		cs, err := r.GetCategories(ctx, payload.Name, payload.Level)
+		cs, err := r.GetCategoryLeaf(ctx, payload.Name, payload.SubLayerName)
 		if err != nil {
 			w.WriteHeader(http.StatusInternalServerError)
 			w.Write([]byte(fmt.Sprintf(`{"code": 500, "msg": "Internal Server Error: %s"}`, err.Error())))
