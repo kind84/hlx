@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"os"
 	"strings"
 
 	"github.com/dgraph-io/dgo"
@@ -18,10 +19,15 @@ type Repo struct {
 }
 
 func (r *Repo) NewClient() *dgo.Dgraph {
+	conn := os.Getenv("HLX_DGRAPH_SERVER")
+	if conn == "" {
+		conn = "localhost:9080"
+	}
+
 	// Dial a gRPC connection.
-	d, err := grpc.Dial("localhost:9080", grpc.WithInsecure())
+	d, err := grpc.Dial(conn, grpc.WithInsecure())
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal("While trying to dial gRPC")
 	}
 
 	return dgo.NewDgraphClient(

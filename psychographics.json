@@ -1,0 +1,269 @@
+[
+    {
+      "values": [
+        {
+          "values": [
+            {
+              "values": [
+                {
+                  "value": "Ads web",
+                  "id": 7,
+                  "label": "Online Ads"
+                },
+                {
+                  "value": "Ads Road",
+                  "id": 5,
+                  "label": "Outdoor Ads"
+                },
+                {
+                  "value": "Ads Paper",
+                  "id": 4,
+                  "pic": "/assets/img/psychographics/ico/psy_4.jpg",
+                  "label": "Print Ads"
+                },
+                {
+                  "value": "Ads EmergingMediaVehicles",
+                  "id": 3,
+                  "pic": "/assets/img/psychographics/ico/psy_3.jpg",
+                  "label": "Unconventional Ads"
+                },
+                {
+                  "value": "Ads TV",
+                  "id": 6,
+                  "pic": "/assets/img/psychographics/ico/psy_6.jpg",
+                  "label": "Tv Ads"
+                }
+              ],
+              "label": "Advertising",
+              "ico": "flaticon-marketing",
+              "id": "Adv Strategy"
+            },
+            {
+              "values": [
+                {
+                  "value": "Casual gamers",
+                  "id": 51,
+                  "label": "Casual Gamers"
+                },
+                {
+                  "value": "Free time gamers",
+                  "id": 37,
+                  "label": "Social Gamer"
+                },
+                {
+                  "value": "Hardcore gamers",
+                  "id": 80,
+                  "label": "Hardcore Gamers"
+                }
+              ],
+              "label": "Gaming",
+              "ico": "",
+              "id": "general-gamers-segments",
+              "pic": ""
+            },
+            {
+              "values": [
+                {
+                  "value": "Background beats",
+                  "id": 10,
+                  "label": "Background Beats"
+                },
+                {
+                  "value": "Musicians",
+                  "id": 56,
+                  "pic": "/assets/img/psychographics/ico/psy_56.jpg",
+                  "label": "Musicians"
+                },
+                {
+                  "value": "Radio listeners",
+                  "id": 71,
+                  "pic": "/assets/img/psychographics/ico/psy_71.jpg",
+                  "label": "Web Radio Listeners"
+                },
+                {
+                  "value": "Dancers",
+                  "id": 21,
+                  "pic": "/assets/img/psychographics/ico/psy_21.jpg",
+                  "label": "Dancers"
+                },
+                {
+                  "value": "Sophisticated listeners",
+                  "id": 61,
+                  "pic": "/assets/img/psychographics/ico/psy_61.jpg",
+                  "label": "Sophisticated Listeners"
+                },
+                {
+                  "value": "Metalheads",
+                  "id": 49,
+                  "pic": "/assets/img/psychographics/ico/psy_49.jpg",
+                  "label": "Metalheads"
+                },
+                {
+                  "value": "Signature soundtrack",
+                  "id": 75,
+                  "pic": "/assets/img/psychographics/ico/psy_75.jpg",
+                  "label": "Signature Soundtrack"
+                }
+              ],
+              "label": "Music",
+              "ico": "",
+              "id": "music-attitude-segments",
+              "pic": ""
+            },
+            {
+              "values": [
+                {
+                  "value": "Techno Gamers",
+                  "label": "Techno Gamers",
+                  "id": 85
+                },
+                {
+                  "value": "Tech Splorers",
+                  "id": 83,
+                  "label": "Tech-Splorers"
+                },
+                {
+                  "value": "Techno Phobes",
+                  "label": "Techno-Phobes",
+                  "id": 86
+                },
+                {
+                  "value": "Mobile App Happy",
+                  "id": 50,
+                  "label": "Mobile App-Happy"
+                }
+              ],
+              "label": "Tech and Mobile",
+              "ico": "",
+              "id": "tech",
+              "pic": ""
+            }
+          ],
+          "label": "Lifestyles",
+          "ico": "",
+          "id": "lifestyiles-cy",
+          "pic": ""
+        },
+        {
+          "values": [
+            {
+              "values": [
+                {
+                  "value": "Indirect speech",
+                  "id": 121,
+                  "label": "Indirect Speech"
+                },
+                {
+                  "value": "Direct speech",
+                  "id": 120,
+                  "label": "Direct Speech"
+                }
+              ],
+              "label": "Conversation Openers",
+              "ico": "",
+              "id": "conversation-opennes",
+              "pic": ""
+            },
+            {
+              "values": [
+                {
+                  "value": "Confident/warm tone",
+                  "sources": [
+                    {
+                      "description": "This group responds well to similarly enthusiastic, confident energy and will reward it with their own. Silences and pauses don't work well though, so be prepared to keep the conversation moving.They are overall extroverts. respond well to similarly enthusiastic, confident energy and will reward it with their own. Silences and pauses don’t work well though, so be prepared to keep the conversation moving.",
+                      "id": 1
+                    }
+                  ],
+                  "id": 130,
+                  "pic": "/assets/img/psychographics/ico/psy_130.jpg",
+                  "label": "Confident/Warm tone"
+                },
+                {
+                  "value": "Moderate tone",
+                  "sources": [
+                    {
+                      "description": "Individuals who aren't quite so serious and appreciate a natural, though not overly boisterous, tone. Displaying too much energy and enthusiasm can turn them off. Go for sincerity.",
+                      "id": 1
+                    }
+                  ],
+                  "id": 129,
+                  "pic": "/assets/img/psychographics/ico/psy_129.jpg",
+                  "label": "Moderate Tone"
+                },
+                {
+                  "value": "Serious/professional tone",
+                  "sources": [
+                    {
+                      "description": "For this set, casual equals unprofessional, and they are anything but. It's very important to these people to come across as a figure of authority, and the people they respect communicate with similar gravity.",
+                      "id": 1
+                    }
+                  ],
+                  "id": 128,
+                  "pic": "/assets/img/psychographics/ico/psy_128.jpg",
+                  "label": "Serious/Professional Tone"
+                }
+              ],
+              "label": "Tone of Voice",
+              "ico": "",
+              "id": "tone-of-voice",
+              "pic": ""
+            },
+            {
+              "values": [
+                {
+                  "value": "Some examples",
+                  "id": 118,
+                  "label": "Some Examples"
+                },
+                {
+                  "value": "Many examples",
+                  "id": 119,
+                  "label": "Many Examples"
+                }
+              ],
+              "label": "Example Usage",
+              "ico": "",
+              "id": "example-usage",
+              "pic": ""
+            },
+            {
+              "values": [
+                {
+                  "value": "Muted colors",
+                  "id": 101,
+                  "label": "Muted Colors"
+                },
+                {
+                  "value": "Vivid colors",
+                  "id": 102,
+                  "label": "Vivid Colors"
+                },
+                {
+                  "value": "Bright colors",
+                  "id": 103,
+                  "label": "Bright Colors"
+                },
+                {
+                  "value": "Black and white",
+                  "id": 100,
+                  "label": "Black and White"
+                }
+              ],
+              "label": "Colors",
+              "ico": "",
+              "id": "colors",
+              "pic": ""
+            }
+          ],
+          "label": "Personalities",
+          "ico": "",
+          "id": "personalities-cy",
+          "pic": ""
+        }
+      ],
+      "label": "Cubeyou",
+      "addonId": "cy",
+      "id": "Cubeyou"
+    }
+]
+  

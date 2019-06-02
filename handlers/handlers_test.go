@@ -20,8 +20,10 @@ func TestGetFolder(t *testing.T) {
 	r := &repo.Repo{
 		ConnStr: "localhost:9080",
 	}
+
+	c := r.NewClient()
+
 	defer func() {
-		c := r.NewClient()
 		err := c.Alter(context.Background(), &api.Operation{DropAll: true})
 		if err != nil {
 			t.Errorf("Error deleteing data")

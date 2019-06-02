@@ -37,6 +37,17 @@ services:
     ports:
       - 8000:8000
     command: dgraph-ratel
+  hlx:
+    build: .
+    environment:
+      - HLX_DGRAPH_SERVER=server:9080
+    ports:
+      - "8080:8080"
+    depends_on:
+      - ratel
+      - server
+      - zero
+    command: sh ./startup.sh
 
 volumes:
   dgraph:
