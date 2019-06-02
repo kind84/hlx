@@ -1,0 +1,721 @@
+[
+    {
+      "id": -3,
+      "name": "Influencers",
+      "level": 1,
+      "children": [
+        {
+          "l1": -3,
+          "level": 2,
+          "id": 13,
+          "name": "Singers & Bands",
+          "children": [
+            {
+              "l1": -3,
+              "l2": 13,
+              "level": 3,
+              "id": 14,
+              "name": "Classical Music"
+            },
+            {
+              "l1": -3,
+              "l2": 13,
+              "level": 3,
+              "id": 15,
+              "name": "Country Music"
+            },
+            {
+              "l1": -3,
+              "l2": 13,
+              "level": 3,
+              "id": 16,
+              "name": "Dance and Electronic Music"
+            },
+            {
+              "l1": -3,
+              "l2": 13,
+              "level": 3,
+              "id": 17,
+              "name": "Folk and Traditional Music"
+            },
+            {
+              "l1": -3,
+              "l2": 13,
+              "level": 3,
+              "id": 18,
+              "name": "Jazz and Blues"
+            },
+            {
+              "l1": -3,
+              "l2": 13,
+              "level": 3,
+              "id": 19,
+              "name": "Pop Music"
+            },
+            {
+              "l1": -3,
+              "l2": 13,
+              "level": 3,
+              "id": 20,
+              "name": "Religious Music"
+            },
+            {
+              "l1": -3,
+              "l2": 13,
+              "level": 3,
+              "id": 21,
+              "name": "Classic Rock and Oldies"
+            },
+            {
+              "l1": -3,
+              "l2": 13,
+              "level": 3,
+              "id": 22,
+              "name": "Hard Rock and Progressive"
+            },
+            {
+              "l1": -3,
+              "l2": 13,
+              "level": 3,
+              "id": 24,
+              "name": "Metal"
+            },
+            {
+              "l1": -3,
+              "l2": 13,
+              "level": 3,
+              "id": 25,
+              "name": "Punk"
+            }
+          ]
+        },
+        {
+          "l1": -3,
+          "level": 2,
+          "id": 12,
+          "name": "Actors and Directors"
+        },
+        {
+          "l1": -3,
+          "level": 2,
+          "id": 34,
+          "name": "Artists"
+        },
+        {
+          "l1": -3,
+          "level": 2,
+          "id": 84,
+          "name": "Models"
+        },
+        {
+          "l1": -3,
+          "level": 2,
+          "id": 127,
+          "name": "Chefs"
+        },
+        {
+          "l1": -3,
+          "level": 2,
+          "id": 419,
+          "name": "Comedians"
+        },
+        {
+          "l1": -3,
+          "level": 2,
+          "id": 420,
+          "name": "Television Stars"
+        },
+  
+        {
+          "l1": -3,
+          "level": 2,
+          "id": 422,
+          "name": "Online Celebrities"
+        },
+        {
+          "l1": -3,
+          "level": 2,
+          "id": 150,
+          "name": "Politicians"
+        },
+        {
+          "l1": -3,
+          "level": 2,
+          "id": 66,
+          "name": "Writers"
+        },
+        {
+          "l1": -3,
+          "level": 2,
+          "id": 401,
+          "name": "Photographers"
+        },
+        {
+          "l1": -3,
+          "level": 2,
+          "id": 332,
+          "name": "Athletes & Sport Teams",
+          "children": [
+            {
+              "l1": -3,
+              "l2": 332,
+              "level": 3,
+              "children": [
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 333,
+                  "id": 334,
+                  "name": "Running",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 333,
+                  "id": 335,
+                  "name": "Golf",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 333,
+                  "id": 336,
+                  "name": "Tennis",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 333,
+                  "id": 337,
+                  "name": "Cycling",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 333,
+                  "id": 338,
+                  "name": "Other Individual Sports",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 333,
+                  "id": 387,
+                  "name": "Wrestling",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 333,
+                  "id": 388,
+                  "name": "Martial Arts",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 333,
+                  "id": 339,
+                  "name": "Boxing",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 333,
+                  "id": 430,
+                  "name": "Winter Sports",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 333,
+                  "id": 431,
+                  "name": "Surf",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 333,
+                  "id": 432,
+                  "name": "Skateboard",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 333,
+                  "id": 340,
+                  "name": "Extreme Sports",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 333,
+                  "id": 341,
+                  "name": "Motor Sports",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 333,
+                  "id": 342,
+                  "name": "Other Water Sports",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 333,
+                  "id": 366,
+                  "name": "Bodybuilding",
+                  "level": 4
+                }
+              ],
+              "id": 333,
+              "name": "Individual Sports",
+              "type": "audience"
+            },
+            {
+              "l1": -3,
+              "l2": 332,
+              "level": 3,
+              "children": [
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "type": "audience",
+                  "l3": 343,
+                  "id": 344,
+                  "name": "American Football",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 343,
+                  "id": 346,
+                  "name": "Baseball",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 343,
+                  "id": 347,
+                  "name": "Basketball",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 343,
+                  "id": 348,
+                  "name": "Hockey",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 343,
+                  "id": 349,
+                  "name": "Volleyball",
+                  "level": 4
+                },
+                {
+                  "l1": -3,
+                  "l2": 332,
+                  "l3": 343,
+                  "id": 350,
+                  "name": "Soccer",
+                  "level": 4
+                }
+              ],
+              "id": 343,
+              "name": "Team Sports",
+              "pic": "/assets/img/categories/category_343.jpg",
+              "type": "audience"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -4,
+      "name": "Interests",
+      "level": 1,
+      "children": [
+        {
+          "l1": -4,
+          "level": 2,
+          "id": -1,
+          "name": "Products & Services",
+          "children": [
+            {
+              "level": 3,
+              "l1": -4,
+              "l2": -1,
+              "id": 41,
+              "name": "Transportation",
+              "children": [
+                {
+                  "l1": -4,
+                  "l2": -1,
+                  "l3": 41,
+                  "level": 4,
+                  "id": 371,
+                  "name": "Cars"
+                },
+                {
+                  "l1": -4,
+                  "l2": -1,
+                  "l3": 41,
+                  "level": 4,
+                  "id": 43,
+                  "name": "Motorcycles"
+                },
+                {
+                  "l1": -4,
+                  "l2": -1,
+                  "l3": 41,
+                  "level": 4,
+                  "id": 45,
+                  "name": "Airlines"
+                }
+              ]
+            },
+            {
+              "level": 3,
+              "l1": -4,
+              "l2": -1,
+              "id": 58,
+              "name": "Books & Literature",
+              "children": [
+                {
+                  "l1": -4,
+                  "l2": -1,
+                  "l3": 58,
+                  "children": [
+                    {
+                      "l1": -4,
+                      "l2": -1,
+                      "level": 5,
+                      "id": 60,
+                      "name": "Comics",
+                      "l4": 59,
+                      "l3": 58
+                    },
+                    {
+                      "l1": -4,
+                      "l2": -1,
+                      "level": 5,
+                      "id": 61,
+                      "name": "Classic",
+                      "l4": 59,
+                      "l3": 58
+                    },
+                    {
+                      "l1": -4,
+                      "l2": -1,
+                      "level": 5,
+                      "id": 62,
+                      "name": "Fun - fiction",
+                      "l4": 59,
+                      "l3": 58
+                    },
+                    {
+                      "l1": -4,
+                      "l2": -1,
+                      "level": 5,
+                      "id": 63,
+                      "name": "Poetry",
+                      "l4": 59,
+                      "l3": 58
+                    },
+                    {
+                      "l1": -4,
+                      "l2": -1,
+                      "level": 5,
+                      "id": 64,
+                      "name": "Children",
+                      "l4": 59,
+                      "l3": 58
+                    },
+                    {
+                      "l1": -4,
+                      "l2": -1,
+                      "level": 5,
+                      "id": 363,
+                      "name": "Novel",
+                      "l4": 59,
+                      "l3": 58
+                    }
+                  ],
+                  "level": 4,
+                  "id": 59,
+                  "name": "Books",
+                  "pic": "/assets/img/categories/category_59.jpg",
+                  "type": "customer"
+                },
+                {
+                  "l1": -4,
+                  "l2": -1,
+                  "l3": 58,
+                  "level": 4,
+                  "id": 428,
+                  "name": "Publishers"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "l1": -4,
+          "level": 2,
+          "id": -2,
+          "name": "Media",
+          "children": [
+            {
+              "l1": -4,
+              "l2": -2,
+              "level": 3,
+              "id": 2,
+              "name": "Movies",
+              "children": [
+                {
+                  "l1": -4,
+                  "l2": -2,
+                  "l3": 2,
+                  "level": 4,
+                  "id": 3,
+                  "name": "Action and Adventure Films"
+                },
+                {
+                  "l1": -4,
+                  "l2": -2,
+                  "l3": 2,
+                  "level": 4,
+                  "id": 4,
+                  "name": "Animated Films"
+                },
+                {
+                  "l1": -4,
+                  "l2": -2,
+                  "l3": 2,
+                  "level": 4,
+                  "id": 5,
+                  "name": "Comedy Films"
+                },
+                {
+                  "l1": -4,
+                  "l2": -2,
+                  "l3": 2,
+                  "level": 4,
+                  "id": 6,
+                  "name": "Documentary Films"
+                },
+                {
+                  "l1": -4,
+                  "l2": -2,
+                  "l3": 2,
+                  "level": 4,
+                  "id": 7,
+                  "name": "Drama Films"
+                },
+                {
+                  "l1": -4,
+                  "l2": -2,
+                  "l3": 2,
+                  "level": 4,
+                  "id": 8,
+                  "name": "Horror Films"
+                },
+                {
+                  "l1": -4,
+                  "l2": -2,
+                  "l3": 2,
+                  "level": 4,
+                  "id": 9,
+                  "name": "Romance Films"
+                },
+                {
+                  "l1": -4,
+                  "l2": -2,
+                  "l3": 2,
+                  "level": 4,
+                  "id": 10,
+                  "name": "Science Fiction and Fantasy Films"
+                }
+              ]
+            },
+            {
+              "l1": -4,
+              "l2": -2,
+              "level": 3,
+              "id": 32,
+              "name": "TV Shows",
+              "children": [
+                {
+                  "l1": -4,
+                  "l2": -2,
+                  "l3": 32,
+                  "children": [
+                    {
+                      "l1": -4,
+                      "l2": -2,
+                      "level": 5,
+                      "id": 437,
+                      "name": "Crime",
+                      "l4": 173,
+                      "l3": 32
+                    },
+                    {
+                      "l1": -4,
+                      "l2": -2,
+                      "level": 5,
+                      "id": 438,
+                      "name": "Romance",
+                      "l4": 173,
+                      "l3": 32
+                    },
+                    {
+                      "l1": -4,
+                      "l2": -2,
+                      "level": 5,
+                      "id": 439,
+                      "name": "Thriller & Horror",
+                      "l4": 173,
+                      "l3": 32
+                    },
+                    {
+                      "l1": -4,
+                      "l2": -2,
+                      "level": 5,
+                      "id": 440,
+                      "name": "Action & Adventure",
+                      "l4": 173,
+                      "l3": 32
+                    },
+                    {
+                      "l1": -4,
+                      "l2": -2,
+                      "level": 5,
+                      "id": 176,
+                      "name": "Sci-Fi & Fantasy",
+                      "l4": 173,
+                      "l3": 32
+                    }
+                  ],
+                  "level": 4,
+                  "id": 173,
+                  "name": "Dramas"
+                },
+                {
+                  "l1": -4,
+                  "l2": -2,
+                  "l3": 32,
+                  "level": 4,
+                  "id": 174,
+                  "name": "Comedies"
+                },
+                {
+                  "l1": -4,
+                  "l2": -2,
+                  "l3": 32,
+                  "level": 4,
+                  "id": 175,
+                  "name": "Reality Shows"
+                },
+                {
+                  "l1": -4,
+                  "l2": -2,
+                  "l3": 32,
+                  "children": [
+                    {
+                      "l1": -4,
+                      "l2": -2,
+                      "l3": 32,
+                      "id": 452,
+                      "name": "News",
+                      "l4": 177,
+                      "level": 5
+                    },
+                    {
+                      "l1": -4,
+                      "l2": -2,
+                      "l3": 32,
+                      "id": 453,
+                      "name": "Local News",
+                      "l4": 177,
+                      "level": 5
+                    },
+                    {
+                      "l1": -4,
+                      "l2": -2,
+                      "l3": 32,
+                      "id": 454,
+                      "name": "Talk and Syndicated Shows",
+                      "l4": 177,
+                      "level": 5
+                    }
+                  ],
+                  "level": 4,
+                  "id": 177,
+                  "name": "Talk Shows",
+                  "pic": "/assets/img/categories/category_177.jpg",
+                  "type": "audience"
+                },
+                {
+                  "l1": -4,
+                  "l2": -2,
+                  "l3": 32,
+                  "level": 4,
+                  "id": 178,
+                  "name": "Family-Oriented Shows"
+                },
+                {
+                  "l1": -4,
+                  "l2": -2,
+                  "l3": 32,
+                  "level": 4,
+                  "id": 179,
+                  "name": "Talent & Variety Shows"
+                },
+                {
+                  "l1": -4,
+                  "l2": -2,
+                  "l3": 32,
+                  "level": 4,
+                  "id": 180,
+                  "name": "Documentary & Nonfiction"
+                },
+                {
+                  "l1": -4,
+                  "l2": -2,
+                  "l3": 32,
+                  "level": 4,
+                  "id": 181,
+                  "name": "Game Shows"
+                },
+                {
+                  "l1": -4,
+                  "l2": -2,
+                  "l3": 32,
+                  "level": 4,
+                  "id": 403,
+                  "name": "Sport Shows"
+                }
+            ]}
+        ]}
+    ]}
+]
